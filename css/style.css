@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0.0,0.0),rgba(0,0,0.0,0.0)), url(../img/background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right:  500px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid #000;
+	
+
+}
+ul li a:hover{
+	background-color: #6B8E23;
+	color:#000;
+
+}
+ul li.active a{
+	background-color: #6B8E23;
+	color:#000;
+}
+
+
+.logo img{
+	float: right;
+	width: 200px;
+	height:auto;
+	margin-right: 20px;
+	margin-top: 30px;
+	border: solid black 3px;
+	padding: 1px;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 50px;
+}
+.title p{
+	color: #191970;
+	font-size: 50px;
+}
+/*abstract*/
+.myself h1{
+	color: #191970;
+	font-size: 50px;
+
+}
+.abstract_cover img{
+	float: right;
+	width: 1840px;
+	height:200px;
+	margin-right: 2px;
+	margin-top: 0px;
+	border: solid black 3px;
+	padding: 1px;
+
+}
+
+
+/*contactform*/
+.contact_us{
+	background-image:linear-gradient(rgba(0,0,0.0,0.5),rgba(0,0,0.0,0.5)), url(../img/connection.png);
+	height: 90vh;
+	width: auto;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.contact-form{
+	margin-top: 100px
+	color#fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+.contact-form h1{
+	font-size: 30px;
+	line-height: 10px;
+	margin-top: 100px;
+	color: #808000;	
+}
+.Back-to-home P{
+	font-size: 20px;
+	color: #fff;
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+.form-control{
+	width: 600px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
